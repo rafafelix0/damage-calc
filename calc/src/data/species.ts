@@ -10022,7 +10022,257 @@ const SV_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
 
 const SV: {[name: string]: SpeciesData} = extend(true, {}, SS, SV_PATCH, PLA_PATCH);
 
-export const SPECIES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
+const IFUS_PATH: {[name:string]: SpeciesData} = {
+  Togecunno: {
+    types: ['Fairy', 'Flying'],
+    bs: { hp: 86, at: 73, df: 98, sa: 111, sd: 118, sp: 83 },
+    weightkg: 46,
+    abilities: {0: 'Serene Grace'},
+  },
+  Snorapex: {
+    types: ['Normal', 'Water'],
+    bs: { hp: 123, at: 78, df: 123, sa: 61, sd: 120, sp: 33 },
+    weightkg: 237,
+    abilities: {0: 'Immunity'},
+  },
+  Dontei: {
+    types: ['Ground', 'Fire'],
+    bs: { hp: 98, at: 116, df: 96, sa: 70, sd: 65, sp: 83 },
+    weightkg: 159,
+    abilities: {0: 'Sturdy'},
+  },
+  Ablucha: {
+    types: ['Dark', 'Flying'],
+    bs: { hp: 69, at: 104, df: 70, sa: 74, sd: 61, sp: 103 },
+    weightkg: 34,
+    abilities: {0: 'Unburden'},
+  },
+  Garblem: {
+    types: ['Poison', 'Ground'],
+    bs: { hp: 80, at: 105, df: 114, sa: 58, sd: 76, sp: 66 },
+    weightkg: 203,
+    abilities: {0: 'Sturdy'},
+  },
+  Infervern: {
+    types: ['Fire', 'Dragon'],
+    bs: { hp: 79, at: 81, df: 77, sa: 101, sd: 74, sp: 118 },
+    weightkg: 70,
+    abilities: {0: 'Blaze'},
+  },
+  Altawear: {
+    types: ['Dragon', 'Fighting'],
+    bs: { hp: 90, at: 106, df: 83, sa: 65, sd: 90, sp: 66 },
+    weightkg: 78,
+    abilities: {0: 'Natural Cure'},
+  },
+  Chandeldon: {
+    types: ['Ghost', 'Steel'],
+    bs: { hp: 60, at: 53, df: 142, sa: 112, sd: 106, sp: 46 },
+    weightkg: 92,
+    abilities: {0: 'Flame Body'},
+  },
+  Mislosion: {
+    types: ['Ghost', 'Fire'],
+    bs: { hp: 66, at: 76, df: 72, sa: 106, sd: 98, sp: 101 },
+    weightkg: 42,
+    abilities: {0: 'Levitate'},
+  },
+  Laptress: {
+    types: ['Water', 'Steel'],
+    bs: { hp: 111, at: 88, df: 120, sa: 76, sd: 83, sp: 46 },
+    weightkg: 173,
+    abilities: {0: 'Battle Armor'},
+  },
+  Glacenx: {
+    types: ['Ice', 'Psychic'],
+    bs: { hp: 65, at: 53, df: 60, sa: 125, sd: 95, sp: 85 },
+    weightkg: 33,
+    abilities: {0: 'Snow Cloak'},
+  },
+  Aurocott: {
+    types: ['Rock', 'Fairy'],
+    bs: { hp: 102, at: 70, df: 80, sa: 91, sd: 86, sp: 96 },
+    weightkg: 116,
+    abilities: { 0: 'Refrigerate' }
+  },
+  Weepass: {
+    types: ['Poison', 'Steel'],
+    bs: { hp: 63, at: 66, df: 136, sa: 81, sd: 96, sp: 46 },
+    weightkg: 175,
+    abilities: { 0: 'Levitate' }
+  },
+  Probozing: {
+    types: ['Rock', 'Poison'],
+    bs: { hp: 61, at: 78, df: 128, sa: 78, sd: 123, sp: 53 },
+    weightkg: 175,
+    abilities: { 0: 'Levitate' }
+  },
+  Sablwile: {
+    types: ['Dark', 'Fairy'],
+    bs: { hp: 50, at: 81, df: 81, sa: 61, sd: 61, sp: 50 },
+    weightkg: 11,
+    abilities: {0: 'Keen Eye'},
+  },
+  Palode: {
+    types: ['Ground', 'Electric'],
+    bs: { hp: 76, at: 58, df: 83, sa: 93, sd: 76, sp: 105 },
+    weightkg: 158,
+    abilities: {0: 'Water Compaction'},
+  },
+  Rotoed: {
+    types: ['Electric', 'Water'],
+    bs: { hp: 63, at: 66, df: 75, sa: 93, sd: 84, sp: 77 },
+    weightkg: 17
+  },
+  Pyukulie: {
+    types: ['Ice', 'Water'],
+    bs: { hp: 63, at: 73, df: 96, sa: 46, sd: 113, sp: 55 },
+    weightkg: 129
+  },
+  Gyarakyu: {
+    types: ['Water', 'Fairy'],
+    bs: { hp: 81, at: 101, df: 79, sa: 56, sd: 101, sp: 91 },
+    weightkg: 118
+  },
+  Kingstar: {
+    types: ['Water', 'Rock'],
+    bs: { hp: 73, at: 71, df: 115, sa: 101, sd: 86, sp: 65 },
+    weightkg: 93
+  },
+  Skartops: {
+    types: ['Steel', 'Water'],
+    bs: { hp: 63, at: 103, df: 116, sa: 48, sd: 70, sp: 76 },
+    weightkg: 45
+  },
+  Milotina: {
+    types: ['Water', 'Dragon'],
+    bs: { hp: 113, at: 86, df: 106, sa: 100, sd: 123, sp: 87 },
+    weightkg: 456
+  },
+  Tyrandra: {
+    types: ['Rock', 'Dragon'],
+    bs: { hp: 96, at: 111, df: 83, sa: 100, sd: 116, sp: 73 },
+    weightkg: 176
+  },
+  Cradluff: {
+    types: ['Rock', 'Flying'],
+    bs: { hp: 82, at: 63, df: 79, sa: 72, sd: 99, sp: 87 },
+    weightkg: 31
+  },
+  Armlade: {
+    types: ['Rock', 'Fighting'],
+    bs: { hp: 72, at: 125, df: 76, sa: 68, sd: 91, sp: 68 },
+    weightkg: 60
+  },
+  Kingron: {
+    types: ['Water', 'Rock'],
+    bs: { hp: 60, at: 116, df: 158, sa: 53, sd: 53, sp: 58 },
+    weightkg: 210
+  },
+  Maroperior: {
+    types: ['Ground', 'Rock'],
+    bs: { hp: 78, at: 120, df: 123, sa: 51, sd: 71, sp: 41 },
+    weightkg: 164
+  },
+  Aerodon: {
+    types: ['Rock', 'Ground'],
+    bs: { hp: 86, at: 135, df: 115, sa: 73, sd: 80, sp: 103 },
+    weightkg: 504
+  },
+  Toxtrum: {
+    types: ['Poison', 'Dragon'],
+    bs: { hp: 60, at: 101, df: 130, sa: 58, sd: 114, sp: 59 },
+    weightkg: 142
+  },
+  Alagar: {
+    types: ['Psychic', 'Poison'],
+    bs: { hp: 56, at: 60, df: 55, sa: 133, sd: 81, sp: 113 },
+    weightkg: 44
+  },
+  Cropass: {
+    types: ['Poison', 'Steel'],
+    bs: { hp: 76, at: 66, df: 123, sa: 71, sd: 103, sp: 70 },
+    weightkg: 207
+  },
+  Clefrade: {
+    types: ['Fairy', 'Poison'],
+    bs: { hp: 66, at: 61, df: 52, sa: 81, sd: 78, sp: 71 },
+    weightkg: 11
+  },
+  Hyzing: {
+    types: ['Dark', 'Poison'],
+    bs: { hp: 83, at: 95, df: 110, sa: 111, sd: 83, sp: 72 },
+    weightkg: 84
+  },
+  Muoh: {
+    types: ['Poison', 'Flying'],
+    bs: { hp: 105, at: 121, df: 85, sa: 80, sd: 118, sp: 76 },
+    weightkg: 114
+  },
+  Darknite: {
+    types: ['Dark', 'Flying'],
+    bs: { hp: 77, at: 119, df: 93, sa: 123, sd: 93, sp: 95 },
+    weightkg: 130
+  },
+  Nineria: {
+    types: ['Fire', 'Flying'],
+    bs: { hp: 73, at: 72, df: 85, sa: 77, sd: 101, sp: 86 },
+    weightkg: 20
+  },
+  Togeflame: {
+    types: ['Fairy', 'Flying'],
+    bs: { hp: 82, at: 70, df: 79, sa: 104, sd: 99, sp: 110 },
+    weightkg: 31
+  },
+  Steevern: {
+    types: ['Steel', 'Dragon'],
+    bs: { hp: 78, at: 75, df: 120, sa: 69, sd: 70, sp: 92 },
+    weightkg: 242
+  },
+  Scepdactyl: {
+    types: ['Grass', 'Flying'],
+    bs: { hp: 73, at: 98, df: 65, sa: 90, sd: 81, sp: 126 },
+    weightkg: 55
+  },
+  Metamence: {
+    types: ['Steel', 'Flying'],
+    bs: { hp: 85, at: 135, df: 96, sa: 100, sd: 86, sp: 90 },
+    weightkg: 326
+  },
+  Ninsharp: {
+    types: ['Bug', 'Steel'],
+    bs: { hp: 62, at: 113, df: 81, sa: 53, sd: 56, sp: 100 },
+    weightkg: 41
+  },
+  Haxmence: {
+    types: ['Dragon', 'Flying'],
+    bs: { hp: 82, at: 139, df: 83, sa: 76, sd: 73, sp: 99 },
+    weightkg: 104
+  },
+  Aegiroc: {
+    types: ['Steel', 'Rock'],
+    bs: { hp: 65, at: 93, df: 93, sa: 51, sd: 121, sp: 94 },
+    weightkg: 39
+  },
+  Reuniveon: {
+    types: ['Psychic', 'Fairy'],
+    bs: { hp: 105, at: 65, df: 68, sa: 120, sd: 100, sp: 50 },
+    weightkg: 21
+  },
+  Torterneon: {
+    types: ['Fire', 'Water'], //, 'Grass'],
+    bs: { hp: 85, at: 100, df: 88, sa: 97, sd: 86, sp: 75 },
+    weightkg: 55
+  },
+  Necroray: {
+    types: ['Psychic', 'Electric'],
+    bs: { hp: 91, at: 115, df: 86, sa: 116, sd: 85, sp: 73 },
+    weightkg: 136
+  }
+}
+const IFusion: {[name: string]: SpeciesData} = extend(true, {}, SM, IFUS_PATH);
+
+export const SPECIES = [{}, RBY, GSC, ADV, DPP, BW, XY, IFusion, SS, SV];
 
 export class Species implements I.Species {
   private readonly gen: I.GenerationNum;

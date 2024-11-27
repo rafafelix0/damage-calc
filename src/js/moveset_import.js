@@ -280,12 +280,13 @@ function addSets(pokes, name) {
 	var currentRow;
 	var currentPoke;
 	var addedpokes = 0;
+	var CURRENT_GEN = 7; // default is 9
 	for (var i = 0; i < rows.length; i++) {
 		currentRow = rows[i].split(/[()@]/);
 		for (var j = 0; j < currentRow.length; j++) {
 			currentRow[j] = checkExeptions(currentRow[j].trim());
-			if (calc.SPECIES[9][currentRow[j].trim()] !== undefined) {
-				currentPoke = JSON.parse(JSON.stringify(calc.SPECIES[9][currentRow[j].trim()]));
+			if (calc.SPECIES[CURRENT_GEN][currentRow[j].trim()] !== undefined) {
+				currentPoke = JSON.parse(JSON.stringify(calc.SPECIES[CURRENT_GEN][currentRow[j].trim()]));
 				currentPoke.name = currentRow[j].trim();
 				currentPoke.item = getItem(currentRow, j + 1);
 				if (j === 1 && currentRow[0].trim()) {
