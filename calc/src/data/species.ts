@@ -10122,152 +10122,890 @@ const IFUS_PATH: {[name:string]: SpeciesData} = {
   Rotoed: {
     types: ['Electric', 'Water'],
     bs: { hp: 63, at: 66, df: 75, sa: 93, sd: 84, sp: 77 },
-    weightkg: 17
+    weightkg: 17,
+    abilities: { 0: 'Drizzle' }
   },
   Pyukulie: {
     types: ['Ice', 'Water'],
     bs: { hp: 63, at: 73, df: 96, sa: 46, sd: 113, sp: 55 },
-    weightkg: 129
+    weightkg: 129,
+    abilities: { 0: 'Innards Out' }
   },
   Gyarakyu: {
     types: ['Water', 'Fairy'],
     bs: { hp: 81, at: 101, df: 79, sa: 56, sd: 101, sp: 91 },
-    weightkg: 118
+    weightkg: 118,
+    abilities: { 0: 'Disguise' }
   },
   Kingstar: {
     types: ['Water', 'Rock'],
     bs: { hp: 73, at: 71, df: 115, sa: 101, sd: 86, sp: 65 },
-    weightkg: 93
+    weightkg: 93,
+    abilities: { 0: 'Sniper' }
   },
   Skartops: {
     types: ['Steel', 'Water'],
     bs: { hp: 63, at: 103, df: 116, sa: 48, sd: 70, sp: 76 },
-    weightkg: 45
+    weightkg: 45,
+    abilities: { 0: 'Swift Swim' }
   },
   Milotina: {
     types: ['Water', 'Dragon'],
     bs: { hp: 113, at: 86, df: 106, sa: 100, sd: 123, sp: 87 },
-    weightkg: 456
+    weightkg: 456,
+    abilities: { 0: 'Marvel Scale' }
   },
   Tyrandra: {
     types: ['Rock', 'Dragon'],
     bs: { hp: 96, at: 111, df: 83, sa: 100, sd: 116, sp: 73 },
-    weightkg: 176
+    weightkg: 176,
+    abilities: { 0: 'Sand Stream' }
   },
   Cradluff: {
     types: ['Rock', 'Flying'],
     bs: { hp: 82, at: 63, df: 79, sa: 72, sd: 99, sp: 87 },
-    weightkg: 31
+    weightkg: 31,
+    abilities: { 0: 'Chlorophyll' }
   },
   Armlade: {
     types: ['Rock', 'Fighting'],
     bs: { hp: 72, at: 125, df: 76, sa: 68, sd: 91, sp: 68 },
-    weightkg: 60
+    weightkg: 60,
+    abilities: { 0: 'Battle Armor' }
   },
   Kingron: {
     types: ['Water', 'Rock'],
     bs: { hp: 60, at: 116, df: 158, sa: 53, sd: 53, sp: 58 },
-    weightkg: 210
+    weightkg: 210,
+    abilities: { 0: 'Swift Swim' }
   },
   Maroperior: {
     types: ['Ground', 'Rock'],
     bs: { hp: 78, at: 120, df: 123, sa: 51, sd: 71, sp: 41 },
-    weightkg: 164
+    weightkg: 164,
+    abilities: { 0: 'Solid Rock' }
   },
   Aerodon: {
     types: ['Rock', 'Ground'],
     bs: { hp: 86, at: 135, df: 115, sa: 73, sd: 80, sp: 103 },
-    weightkg: 504
+    weightkg: 504,
+    abilities: { 0: 'Drought' }
   },
   Toxtrum: {
     types: ['Poison', 'Dragon'],
     bs: { hp: 60, at: 101, df: 130, sa: 58, sd: 114, sp: 59 },
-    weightkg: 142
+    weightkg: 142,
+    abilities: { 0: 'Merciless' }
   },
   Alagar: {
     types: ['Psychic', 'Poison'],
     bs: { hp: 56, at: 60, df: 55, sa: 133, sd: 81, sp: 113 },
-    weightkg: 44
+    weightkg: 44,
+    abilities: { 0: 'Levitate' }
   },
   Cropass: {
     types: ['Poison', 'Steel'],
     bs: { hp: 76, at: 66, df: 123, sa: 71, sd: 103, sp: 70 },
-    weightkg: 207
+    weightkg: 207,
+    abilities: { 0: 'Sturdy' }
   },
   Clefrade: {
     types: ['Fairy', 'Poison'],
     bs: { hp: 66, at: 61, df: 52, sa: 81, sd: 78, sp: 71 },
-    weightkg: 11
+    weightkg: 11,
+    abilities: { 0: 'Technician' }
   },
   Hyzing: {
     types: ['Dark', 'Poison'],
     bs: { hp: 83, at: 95, df: 110, sa: 111, sd: 83, sp: 72 },
-    weightkg: 84
+    weightkg: 84,
+    abilities: { 0: 'Levitate' }
   },
   Muoh: {
     types: ['Poison', 'Flying'],
     bs: { hp: 105, at: 121, df: 85, sa: 80, sd: 118, sp: 76 },
-    weightkg: 114
+    weightkg: 114,
+    abilities: { 0: 'Presure' }
   },
   Darknite: {
     types: ['Dark', 'Flying'],
     bs: { hp: 77, at: 119, df: 93, sa: 123, sd: 93, sp: 95 },
-    weightkg: 130
+    weightkg: 130,
+    abilities: { 0: 'Inner Focus' }
   },
   Nineria: {
     types: ['Fire', 'Flying'],
     bs: { hp: 73, at: 72, df: 85, sa: 77, sd: 101, sp: 86 },
-    weightkg: 20
+    weightkg: 20,
+    abilities: { 0: 'Drought' }
   },
   Togeflame: {
     types: ['Fairy', 'Flying'],
     bs: { hp: 82, at: 70, df: 79, sa: 104, sd: 99, sp: 110 },
-    weightkg: 31
+    weightkg: 31,
+    abilities: { 0: 'Serene Grace' }
   },
   Steevern: {
     types: ['Steel', 'Dragon'],
     bs: { hp: 78, at: 75, df: 120, sa: 69, sd: 70, sp: 92 },
-    weightkg: 242
+    weightkg: 242,
+    abilities: { 0: 'Sturdy' }
   },
   Scepdactyl: {
     types: ['Grass', 'Flying'],
     bs: { hp: 73, at: 98, df: 65, sa: 90, sd: 81, sp: 126 },
-    weightkg: 55
+    weightkg: 55,
+    abilities: { 0: 'Pressure' }
   },
   Metamence: {
     types: ['Steel', 'Flying'],
     bs: { hp: 85, at: 135, df: 96, sa: 100, sd: 86, sp: 90 },
-    weightkg: 326
+    weightkg: 326,
+    abilities: { 0: 'Clear Body' }
   },
   Ninsharp: {
     types: ['Bug', 'Steel'],
     bs: { hp: 62, at: 113, df: 81, sa: 53, sd: 56, sp: 100 },
-    weightkg: 41
+    weightkg: 41,
+    abilities: { 0: 'Speed Boost' }
   },
   Haxmence: {
     types: ['Dragon', 'Flying'],
     bs: { hp: 82, at: 139, df: 83, sa: 76, sd: 73, sp: 99 },
-    weightkg: 104
+    weightkg: 104,
+    abilities: { 0: 'Moxie' }
   },
   Aegiroc: {
     types: ['Steel', 'Rock'],
     bs: { hp: 65, at: 93, df: 93, sa: 51, sd: 121, sp: 94 },
-    weightkg: 39
+    weightkg: 39,
+    abilities: { 0: 'State Change' }
   },
   Reuniveon: {
     types: ['Psychic', 'Fairy'],
     bs: { hp: 105, at: 65, df: 68, sa: 120, sd: 100, sp: 50 },
-    weightkg: 21
+    weightkg: 21,
+    abilities: { 0: 'Pixilate' }
   },
   Torterneon: {
     types: ['Fire', 'Water'], //, 'Grass'],
     bs: { hp: 85, at: 100, df: 88, sa: 97, sd: 86, sp: 75 },
-    weightkg: 55
+    weightkg: 55,
+    abilities: { 0: 'Shell Armor' }
   },
   Necroray: {
     types: ['Psychic', 'Electric'],
     bs: { hp: 91, at: 115, df: 86, sa: 116, sd: 85, sp: 73 },
-    weightkg: 136
+    weightkg: 136,
+    abilities: { 0: 'Intimidate' }
+  },
+  Arduck: {
+    types: ['Steel', 'Water'],
+    bs: { hp: 50, at: 58, df: 65, sa: 48, sd: 43, sp: 46 },
+    weightkg: 40,
+    abilities: { 0: 'Rock Head' }
+  },
+  "Stee Jr.": {
+    types: ['Steel', 'Fairy'],
+    bs: { hp: 56, at: 45, df: 96, sa: 60, sd: 73, sp: 50 },
+    weightkg: 206,
+    abilities: { 0: 'Sturdy' }
+  },
+  Amasel: {
+    types: ['Rock', 'Ice'],
+    bs: { hp: 69, at: 83, df: 53, sa: 56, sd: 67, sp: 92 },
+    weightkg: 27,
+    abilities: { 0: 'Snow Warning' }
+  },
+  Frosras: {
+    types: ['Ice', 'Water'],
+    bs: { hp: 90, at: 83, df: 76, sa: 81, sd: 78, sp: 76 },
+    weightkg: 123,
+    abilities: { 0: 'Water Absorb' }
+  },
+  Hawlfisk: {
+    types: ['Fighting', 'Electric'],
+    bs: { hp: 88, at: 74, df: 81, sa: 76, sd: 75, sp: 60 },
+    weightkg: 16,
+    abilities: { 0: 'Limber' }
+  },
+  Koffloom: {
+    types: ['Poison', 'Fighting'],
+    bs: { hp: 46, at: 108, df: 85, sa: 60, sd: 50, sp: 58 },
+    weightkg: 20,
+    abilities: { 0: 'Poison Heal' }
+  },
+  Hounlade: {
+    types: ['Dark', 'Fighting'],
+    bs: { hp: 72, at: 113, df: 60, sa: 95, sd: 91, sp: 85 },
+    weightkg: 43,
+    abilities: { 0: 'Flash Fire' }
+  },
+  Golruff: {
+    types: ['Poison', 'Rock'],
+    bs: { hp: 65, at: 70, df: 50, sa: 53, sd: 63, sp: 70 },
+    weightkg: 32,
+    abilities: { 0: 'Inner Focus' }
+  },
+  "Golroc Midday": {
+    types: ['Poison', 'Rock'],
+    bs: { hp: 75, at: 103, df: 66, sa: 61, sd: 71, sp: 104 },
+    weightkg: 40,
+    abilities: { 0: 'Inner Focus' }
+  },
+  "Croroc Midday": {
+    types: ['Poison', 'Rock'],
+    bs: { hp: 81, at: 106, df: 70, sa: 65, sd: 75, sp: 118 },
+    weightkg: 50,
+    abilities: { 0: 'Inner Focus' }
+  },
+  "Golroc Midnight": {
+    types: ['Poison', 'Rock'],
+    bs: { hp: 48, at: 103, df: 73, sa: 61, sd: 75, sp: 84 },
+    weightkg: 40,
+    abilities: { 0: 'Inner Focus' }
+  },
+  "Croroc Midnight": {
+    types: ['Poison', 'Rock'],
+    bs: { hp: 85, at: 106, df: 76, sa: 65, sd: 78, sp: 98 },
+    weightkg: 50,
+    abilities: { 0: 'Inner Focus' }
+  },
+  Pyukuskull: {
+    types: ['Water', 'Ghost'],
+    bs: { hp: 43, at: 46, df: 103, sa: 30, sd: 116, sp: 18 },
+    weightkg: 8,
+    abilities: { 0: 'Levitate' }
+  },
+  Pyukuclops: {
+    types: ['Water', 'Ghost'],
+    bs: { hp: 50, at: 66, df: 130, sa: 40, sd: 130, sp: 18 },
+    weightkg: 8,
+    abilities: { 0: 'Pressure' }
+  },
+  Pyukunoir: {
+    types: ['Water', 'Ghost'],
+    bs: { hp: 51, at: 86, df: 133, sa: 41, sd: 131, sp: 31 },
+    weightkg: 8,
+    abilities: { 0: 'Pressure' }
+  },
+  Hounesta: {
+    types: ['Dark', 'Fire'],
+    bs: { hp: 68, at: 86, df: 53, sa: 90, sd: 71, sp: 71 },
+    weightkg: 32,
+    abilities: { 0: 'Flame Body' }
+  },
+  Hounrona: {
+    types: ['Dark', 'Fire'],
+    bs: { hp: 78, at: 70, df: 60, sa: 118, sd: 88, sp: 98 },
+    weightkg: 40,
+    abilities: { 0: 'Flame Body' }
+  },
+  Gasma: {
+    types: ['Ghost', 'Flying'],
+    bs: { hp: 41, at: 55, df: 40, sa: 91, sd: 38, sp: 90 },
+    weightkg: 19,
+    abilities: { 0: 'Compound Eyes' }
+  },
+  Haunma: {
+    types: ['Ghost', 'Flying'],
+    bs: { hp: 51, at: 60, df: 45, sa: 101, sd: 51, sp: 95 },
+    weightkg: 19,
+    abilities: { 0: 'Compound Eyes' }
+  },
+  Haunmega: {
+    types: ['Ghost', 'Flying'],
+    bs: { hp: 58, at: 67, df: 72, sa: 115, sd: 55, sp: 95 },
+    weightkg: 26,
+    abilities: { 0: 'Tinted Lens' }
+  },
+  Genmega: {
+    types: ['Ghost', 'Flying'],
+    bs: { hp: 68, at: 72, df: 77, sa: 125, sd: 68, sp: 100 },
+    weightkg: 46,
+    abilities: { 0: 'Tinted Lens' }
+  },
+  "Solopede Venipede": {
+    types: ['Psychic', 'Poison'],
+    bs: { hp: 43, at: 46, df: 79, sa: 83, sd: 59, sp: 38 },
+    weightkg: 29,
+    abilities: { 0: 'Speed Boost' }
+  },
+  "Solopede Scolipede": {
+    types: ['Psychic', 'Poison'],
+    bs: { hp: 50, at: 76, df: 72, sa: 88, sd: 56, sp: 81 },
+    weightkg: 100,
+    abilities: { 0: 'Speed Boost' }
+  },
+  Duopede: {
+    types: ['Psychic', 'Poison'],
+    bs: { hp: 63, at: 80, df: 76, sa: 101, sd: 63, sp: 84 },
+    weightkg: 104,
+    abilities: { 0: 'Speed Boost' }
+  },
+  Reunipede: {
+    types: ['Psychic', 'Poison'],
+    bs: { hp: 93, at: 88, df: 84, sa: 101, sd: 79, sp: 84 },
+    weightkg: 110,
+    abilities: { 0: 'Speed Boost' }
+  },
+  Gyaravanha: {
+    types: ['Water', 'Dark'],
+    bs: { hp: 78, at: 101, df: 39, sa: 61, sd: 73, sp: 70 },
+    weightkg: 128,
+    abilities: { 0: 'Intimidate' }
+  },
+  Gyaraedo: {
+    types: ['Water', 'Dark'],
+    bs: { hp: 86, at: 121, df: 53, sa: 71, sd: 80, sp: 90 },
+    weightkg: 162,
+    abilities: { 0: 'Intimidate' }
+  },
+  "Niniard Nincada": {
+    types: ['Bug', 'Steel'],
+    bs: { hp: 35, at: 71, df: 76, sa: 33, sd: 33, sp: 53 },
+    weightkg: 8,
+    abilities: { 0: 'Compound Eyes' }
+  },
+  "Niniard Ninjask": {
+    types: ['Bug', 'Steel'],
+    bs: { hp: 55, at: 86, df: 61, sa: 46, sd: 46, sp: 93 },
+    weightkg: 11,
+    abilities: { 0: 'Speed Boost' }
+  },
+  Shedsharp: {
+    types: ['Bug', 'Steel'],
+    bs: { hp: 22, at: 113, df: 81, sa: 40, sd: 43, sp: 60 },
+    weightkg: 35,
+    abilities: { 0: 'Wonder Guard' }
+  },
+  Caresta: {
+    types: ['Water', 'Fire'],
+    bs: { hp: 48, at: 86, df: 43, sa: 60, sd: 31, sp: 61 },
+    weightkg: 25,
+    abilities: { 0: 'Flame Body' }
+  },
+  Sharpesta: {
+    types: ['Water', 'Fire'],
+    bs: { hp: 65, at: 96, df: 50, sa: 80, sd: 45, sp: 71 },
+    weightkg: 59,
+    abilities: { 0: 'Flame Body' }
+  },
+  Sharprona: {
+    types: ['Water', 'Fire'],
+    bs: { hp: 75, at: 80, df: 56, sa: 108, sd: 61, sp: 98 },
+    weightkg: 67,
+    abilities: { 0: 'Flame Body' }
+  },
+  Honruff: {
+    types: ['Steel', 'Rock'],
+    bs: { hp: 45, at: 70, df: 60, sa: 33, sd: 38, sp: 49 },
+    weightkg: 6,
+    abilities: { 0: 'No Guard' }
+  },
+  "Honroc Midnight": {
+    types: ['Steel', 'Rock'],
+    bs: { hp: 58, at: 103, df: 83, sa: 41, sd: 49, sp: 64 },
+    weightkg: 13,
+    abilities: { 0: 'No Guard' }
+  },
+  "Doubroc Midnight": {
+    types: ['Steel', 'Rock'],
+    bs: { hp: 67, at: 113, df: 100, sa: 48, sd: 57, sp: 66 },
+    weightkg: 13,
+    abilities: { 0: 'No Guard' }
+  },
+  "Aegiroc Midnight":  {
+    types: ['Steel', 'Rock'],
+    bs: { hp: 68, at: 93, df: 100, sa: 51, sd: 125, sp: 74 },
+    weightkg: 39,
+    abilities: { 0: 'State Change' }
+  },
+  "Doubroc Midday": {
+    types: ['Steel', 'Rock'],
+    bs: { hp: 64, at: 113, df: 93, sa: 48, sd: 54, sp: 86 },
+    weightkg: 13,
+    abilities: { 0: 'No Guard' }
+  },
+  Cottonx: {
+    types: ['Grass', 'Electric'],
+    bs: { hp: 41, at: 52, df: 42, sa: 38, sd: 44, sp: 52 },
+    weightkg: 5,
+    abilities: { 0: 'Intimidate' }
+  },
+  Cottonxio: {
+    types: ['Grass', 'Electric'],
+    bs: { hp: 46, at: 65, df: 42, sa: 44, sd: 49, sp: 62 },
+    weightkg: 15,
+    abilities: { 0: 'Intimidate' }
+  },
+  Whimsixio: {
+    types: ['Grass', 'Electric'],
+    bs: { hp: 60, at: 79, df: 61, sa: 71, sd: 66, sp: 78 },
+    weightkg: 18,
+    abilities: { 0: 'Intimidate' }
+  },
+  Whimsiray: {
+    types: ['Grass', 'Electric'],
+    bs: { hp: 66, at: 102, df: 81, sa: 83, sd: 76, sp: 85 },
+    weightkg:24,
+    abilities: { 0: 'Intimidate' }
+  },
+  Axeagon: {
+    types: ['Dragon'],
+    bs: { hp: 45, at: 79, df: 60, sa: 33, sd: 36, sp: 52 },
+    weightkg: 30,
+    abilities: { 0: 'Mold Breaker' }
+  },
+  Fraxelgon: {
+    types: ['Dragon'],
+    bs: { hp: 65, at: 102, df: 90, sa: 46, sd: 50, sp: 55 },
+    weightkg: 73,
+    abilities: { 0: 'Mold Breaker' }
+  },
+  Fraxmence: {
+    types: ['Dragon', 'Flying'],
+    bs: { hp: 75, at: 129, df: 76, sa: 63, sd: 60, sp: 89 },
+    weightkg: 69,
+    abilities: { 0: 'Mold Breaker' }
+  },
+  Solovee: {
+    types: ['Psychic', 'Normal'],
+    bs: { hp: 48, at: 46, df: 46, sa: 85, sd: 55, sp: 43 },
+    weightkg: 4,
+    abilities: { 0: 'Adaptability' }
+  },
+  Duovee: {
+    types: ['Psychic', 'Normal'],
+    bs: { hp: 61, at: 50, df: 50, sa: 98, sd: 61, sp: 46 },
+    weightkg: 7,
+    abilities: { 0: 'Adaptability' }
+  },
+  Reunipeon: {
+    types: ['Psychic'],
+    bs: { hp: 95, at: 65, df: 65, sa: 126, sd: 88, sp: 83 },
+    weightkg: 23,
+    abilities: { 0: 'Magic Bounce' }
+  },
+  Reunireon: {
+    types: ['Psychic', 'Dark'],
+    bs: { hp: 105, at: 65, df: 98, sa: 103, sd: 100, sp: 53 },
+    weightkg: 23,
+    abilities: { 0: 'Magic Guard' }
+  },
+  Drifborb: {
+    types: ['Ghost', 'Electric'],
+    bs: { hp: 113, at: 46, df: 48, sa: 78, sd: 54, sp: 93 },
+    weightkg: 13,
+    abilities: { 0: 'Soundproof' }
+  },
+  Drifbode: {
+    types: ['Ghost', 'Electric'],
+    bs: { hp: 120, at: 60, df: 61, sa: 86, sd: 62, sp: 120 },
+    weightkg: 41,
+    abilities: { 0: 'Soundproof' }
+  },
+  Yatress: {
+    types: ['Ghost', 'Steel'],
+    bs: { hp: 50, at: 70, df: 121, sa: 56, sd: 63, sp: 36 },
+    weightkg: 64,
+    abilities: { 0: 'Mummy' }
+  },
+  Cofagtress: {
+    types: ['Ghost', 'Steel'],
+    bs: { hp: 63, at: 76, df: 141, sa: 83, sd: 90, sp: 36 },
+    weightkg: 101,
+    abilities: { 0: 'Mummy' }
+  },
+  "Hounchu DoomPika": {
+    types: ['Dark', 'Electric'],
+    bs: { hp: 61, at: 66, df: 36, sa: 90, sd: 66, sp: 91 },
+    weightkg: 20,
+    abilities: { 0: 'Early Bird' }
+  },
+  "Hounchu DoomRai": {
+    types: ['Dark', 'Electric'],
+    bs: { hp: 70, at: 90, df: 53, sa: 103, sd: 80, sp: 98 },
+    weightkg: 32,
+    abilities: { 0: 'Early Bird' }
+  },
+  Umbther: {
+    types: ['Dark', 'Flying'],
+    bs: { hp: 86, at: 95, df: 90, sa: 58, sd: 113, sp: 91 },
+    weightkg: 41,
+    abilities: { 0: 'Synchronize' }
+  },
+  Umbzor: {
+    types: ['Dark', 'Steel'],
+    bs: { hp: 86, at: 108, df: 103, sa: 58, sd: 113, sp: 65 },
+    weightkg: 72,
+    abilities: { 0: 'Synchronize' }
+  },
+  Murqueen: {
+    types: ['Dark', 'Ground'],
+    bs: { hp: 70, at: 83, df: 72, sa: 81, sd: 56, sp: 81 },
+    weightkg: 31,
+    abilities: { 0: 'Super Luck' }
+  },
+  Honchqueen: {
+    types: ['Dark', 'Ground'],
+    bs: { hp: 96, at: 96, df: 75, sa: 95, sd: 63, sp: 74 },
+    weightkg: 42,
+    abilities: { 0: 'Super Luck' }
+  },
+  Bieye: {
+    types: ['Normal', 'Ghost'],
+    bs: { hp: 69, at: 78, df: 70, sa: 58, sd: 61, sp: 57 },
+    weightkg: 21,
+    abilities: { 0: 'Unaware' }
+  },
+  Honchzing: {
+    types: ['Dark', 'Poison'],
+    bs: { hp: 88, at: 101, df: 97, sa: 98, sd: 58, sp: 63 },
+    weightkg: 18,
+    abilities: { 0: 'Levitate' }
+  },
+  Kecgon: {
+    types: ['Normal', 'Dragon'],
+    bs: { hp: 66, at: 96, df: 76, sa: 66, sd: 106, sp: 80 },
+    weightkg: 52,
+    abilities: { 0: 'Protean' }
+  },
+  Ditsian: {
+    types: ['Normal'],
+    bs: { hp: 53, at: 62, df: 56, sa: 53, sd: 53, sp: 92 },
+    weightkg: 18,
+    abilities: { 0: 'Imposter' }
+  },
+  Smeargar: {
+    types: ['Normal', 'Poison'],
+    bs: { hp: 56, at: 50, df: 51, sa: 56, sd: 55, sp: 98 },
+    weightkg: 49,
+    abilities: { 0: 'Levitate' }
+  },
+  Auroaldo: {
+    types: ['Rock', 'Bug'],
+    bs: { hp: 107, at: 109, df: 90, sa: 89, sd: 88, sp: 49 },
+    weightkg: 146,
+    abilities: { 0: 'Refrigerate' }
+  },
+  Sciossom: {
+    types: ['Bug', 'Grass'],
+    bs: { hp: 71, at: 96, df: 90, sa: 66, sd: 86, sp: 55 },
+    weightkg: 62,
+    abilities: { 0: 'Technician' }
+  },
+  Scolieon: {
+    types: ['Bug', 'Water'],
+    bs: { hp: 83, at: 76, df: 69, sa: 73, sd: 77, sp: 80 },
+    weightkg: 114,
+    abilities: { 0: 'Speed Boost' }
+  },
+  Volcalem: {
+    types: ['Bug', 'Ground'],
+    bs: { hp: 83, at: 93, df: 108, sa: 108, sd: 91, sp: 63 },
+    weightkg: 173,
+    abilities: { 0: 'Flame Body' }
+  },
+  Mimiark: {
+    types: ['Ghost', 'Dark'],
+    bs: { hp: 56, at: 100, df: 66, sa: 73, sd: 90, sp: 102 },
+    weightkg: 41,
+    abilities: { 0: 'Disguise' }
+  },
+  Weereon: {
+    types: ['Poison', 'Dark'],
+    bs: { hp: 75, at: 73, df: 113, sa: 76, sd: 90, sp: 63 },
+    weightkg: 18,
+    abilities: { 0: 'Levitate' }
+  },
+  Honchvire: {
+    types: ['Dark', 'Electric'],
+    bs: { hp: 91, at: 123, df: 62, sa: 101, sd: 63, sp: 87 },
+    weightkg: 83,
+    abilities: { 0: 'Moxie' }
+  },
+  Aegiturne: {
+    types: ['Steel', 'Dark'],
+    bs: { hp: 63, at: 93, df: 90, sa: 71, sd: 120, sp: 56 },
+    weightkg: 65,
+    abilities: { 0: 'Sand Veil' }
+  },
+  Togetales: {
+    types: ['Fairy', 'Fire'],
+    bs: { hp: 81, at: 67, df: 81, sa: 107, sd: 110, sp: 93 },
+    weightkg: 28,
+    abilities: { 0: 'Flash Fire' }
+  },
+  Marokyu: {
+    types: ['Ground', 'Fairy'],
+    bs: { hp: 58, at: 86, df: 90, sa: 50, sd: 88, sp: 79 },
+    weightkg: 22,
+    abilities: { 0: 'Disguise' }
+  },
+  Clefklang: {
+    types: ['Fairy', 'Steel'],
+    bs: { hp: 83, at: 90, df: 101, sa: 80, sd: 88, sp: 80 },
+    weightkg: 60,
+    abilities: { 0: 'Unaware' }
+  },
+  Rosevoir: {
+    types: ['Grass', 'Fairy'],
+    bs: { hp: 62, at: 66, df: 61, sa: 125, sd: 108, sp: 83 },
+    weightkg: 31,
+    abilities: { 0: 'Poison Point' }
+  },
+  "Mr. klang": {
+    types: ['Psychic', 'Steel'],
+    bs: { hp: 46, at: 81, df: 98, sa: 90, sd: 108, sp: 90 },
+    weightkg: 67,
+    abilities: { 0: 'Soundproof' }
+  },
+  Magmorish: {
+    types: ['Fire', 'Psychic'],
+    bs: { hp: 72, at: 101, df: 69, sa: 106, sd: 86, sp: 89 },
+    weightkg: 43,
+    abilities: { 0: 'Dazzling' }
+  },
+  Woblord: {
+    types: ['Psychic', 'Water'],
+    bs: { hp: 183, at: 71, df: 49, sa: 52, sd: 53, sp: 51 },
+    weightkg: 213,
+    abilities: { 0: 'Oblivious' }
+  },
+  Magross: {
+    types: ['Fighting', 'Psychic'],
+    bs: { hp: 86, at: 133, df: 113, sa: 75, sd: 86, sp: 65 },
+    weightkg: 340,
+    abilities: { 0: 'No Guard' }
+  },
+  Beye: {
+    types: ['Normal', 'Ghost'],
+    bs: { hp: 96, at: 91, df: 76, sa: 58, sd: 61, sp: 53 },
+    weightkg: 73,
+    abilities: { 0: 'Prankster' }
+  },
+  Snorking: {
+    types: ['Normal', 'Ground'],
+    bs: { hp: 133, at: 98, df: 73, sa: 71, sd: 98, sp: 66 },
+    weightkg: 261,
+    abilities: { 0: 'Sheer Force' }
+  },
+  Mapom: {
+    types: ['Fighting', 'Normal'],
+    bs: { hp: 85, at: 110, df: 70, sa: 63, sd: 78, sp: 95 },
+    weightkg: 75,
+    abilities: { 0: 'Technician' }
+  },
+  Tyranking: {
+    types: ['Rock', 'Normal'],
+    bs: { hp: 104, at: 147, df: 106, sa: 77, sd: 61, sp: 90 },
+    weightkg: 200,
+    abilities: { 0: 'Truant' }
+  },
+  Tanvenant: {
+    types: ['Grass', 'Ghost'],
+    bs: { hp: 95, at: 106, df: 92, sa: 95, sd: 60, sp: 54 },
+    weightkg: 100,
+    abilities: { 0: 'Regenerator' }
+  },
+  Dhelmcross: {
+    types: ['Ghost', 'Fighting'],
+    bs: { hp: 73, at: 127, df: 83, sa: 70, sd: 91, sp: 70 },
+    weightkg: 132,
+    abilities: { 0: 'Guts' }
+  },
+  "Togeblade Togetic": {
+    types: ['Fairy', 'Ghost'],
+    bs: { hp: 56, at: 86, df: 128, sa: 68, sd: 86, sp: 36 },
+    weightkg: 3,
+    abilities: { 0: 'No Guard' }
+  },
+  Togeslash: {
+    types: ['Fairy', 'Ghost'],
+    bs: { hp: 76, at: 50, df: 131, sa: 96, sd: 126, sp: 66 },
+    weightkg: 45,
+    abilities: { 0: 'Stance Change' }
+  },
+  Aegimagius: {
+    types: ['Steel', 'Ghost'],
+    bs: { hp: 60, at: 56, df: 90, sa: 68, sd: 135, sp: 90 },
+    weightkg: 28,
+    abilities: { 0: 'Levitate' }
+  },
+  Donzor: {
+    types: ['Ground', 'Steel'],
+    bs: { hp: 83, at: 126, df: 106, sa: 58, sd: 66, sp: 60 },
+    weightkg: 119,
+    abilities: { 0: 'Sturdy' }
+  },
+  Cradapex: {
+    types: ['Rock', 'Water'],
+    bs: { hp: 74, at: 69, df: 133, sa: 71, sd: 118, sp: 37 },
+    weightkg: 37,
+    abilities: { 0: 'Merciless' }
+  },
+  Chandelwak: {
+    types: ['Ghost', 'Ground'],
+    bs: { hp: 60, at: 71, df: 103, sa: 113, sd: 86, sp: 56 },
+    weightkg: 39,
+    abilities: { 0: 'Flash Fire' }
+  },
+  Chandelosion: {
+    types: ['Ghost', 'Fire'],
+    bs: { hp: 66, at: 74, df: 82, sa: 133, sd: 88, sp: 93 },
+    weightkg: 57,
+    abilities: { 0: 'Flame Body' }
+  },
+  Snortomb: {
+    types: ['Normal', 'Ghost'],
+    bs: { hp: 123, at: 98, df: 93, sa: 74, sd: 109, sp: 33 },
+    weightkg: 284,
+    abilities: { 0: 'Pressure' }
+  },
+  Cofagar: {
+    types: ['Ghost', 'Poison'],
+    bs: { hp: 58, at: 60, df: 88, sa: 106, sd: 95, sp: 83 },
+    weightkg: 58,
+    abilities: { 0: 'Levitate' }
+  },
+  Geneye: {
+    types: ['Ghost', 'Dark'],
+    bs: { hp: 56, at: 71, df: 70, sa: 108, sd: 71, sp: 70 },
+    weightkg: 25,
+    abilities: { 0: 'Levitate' }
+  },
+  Garbtrum: {
+    types: ['Poison', 'Dragon'],
+    bs: { hp: 80, at: 112, df: 106, sa: 63, sd: 74, sp: 72 },
+    weightkg: 188,
+    abilities: { 0: 'Strong Jaw' }
+  },
+  Bastiovenant: {
+    types: ['Rock', 'Ghost'],
+    bs: { hp: 68, at: 90, df: 106, sa: 53, sd: 119, sp: 47 },
+    weightkg: 110,
+    abilities: { 0: 'Sturdy' }
+  },
+  Hyptom: {
+    types: ['Psychic', 'Ghost'],
+    bs: { hp: 73, at: 57, df: 74, sa: 80, sd: 102, sp: 83 },
+    weightkg: 38,
+    abilities: { 0: 'Levitate' }
+  },
+  Klinksand: {
+    types: ['Steel', 'Ghost'],
+    bs: { hp: 68, at: 83, df: 111, sa: 80, sd: 81, sp: 53 },
+    weightkg: 165,
+    abilities: { 0: 'Water Compaction' }
+  },
+  "Zapmolcuno A": {
+    types: ['Ice', 'Flying'],
+    bs: { hp: 90, at: 92, df: 92, sa: 115, sd: 100, sp: 92 },
+    weightkg: 55,
+    abilities: { 0: 'Pressure' }
+  },
+  "Zapmolcuno Z": {
+    types: ['Electric', 'Flying'],
+    bs: { hp: 90, at: 92, df: 92, sa: 115, sd: 100, sp: 92 },
+    weightkg: 55,
+    abilities: { 0: 'Pressure' }
+  },
+  "Zapmolcuno M": {
+    types: ['Fire', 'Flying'],
+    bs: { hp: 90, at: 92, df: 92, sa: 115, sd: 100, sp: 92 },
+    weightkg: 55,
+    abilities: { 0: 'Pressure' }
+  },
+  Golmoth: {
+    types: ['Water', 'Poison'],
+    bs: { hp: 76, at: 70, df: 66, sa: 93, sd: 78, sp: 88 },
+    weightkg: 44,
+    abilities: { 0: 'Tinted Lens' }
+  },
+  Artivenant: {
+    types: ['Ice', 'Ghost'],
+    bs: { hp: 88, at: 101, df: 84, sa: 85, sd: 110, sp: 65 },
+    weightkg: 64,
+    abilities: { 0: 'Natural Cure' }
+  },
+  Artinette: {
+    types: ['Ice', 'Ghost'],
+    bs: { hp: 81, at: 105, df: 76, sa: 91, sd: 104, sp: 71 },
+    weightkg: 34,
+    abilities: { 0: 'Pressure' }
+  },
+  Zapturne: {
+    types: ['Electric', 'Dark'],
+    bs: { hp: 83, at: 106, df: 68, sa: 121, sd: 80, sp: 70 },
+    weightkg: 65,
+    abilities: { 0: 'Sand Veil' }
+  },
+  Tornette: {
+    types: ['Grass', 'Ghost'],
+    bs: { hp: 84, at: 113, df: 78, sa: 77, sd: 77, sp: 62 },
+    weightkg: 161,
+    abilities: { 0: 'Overgrow' }
+  },
+  Zaptom: {
+    types: ['Electric', 'Ghost'],
+    bs: { hp: 76, at: 63, df: 79, sa: 115, sd: 85, sp: 94 },
+    weightkg: 26,
+    abilities: { 0: 'Levitate' }
+  },
+  Chandeldos: {
+    types: ['Ghost', 'Flying'],
+    bs: { hp: 70, at: 78, df: 86, sa: 138, sd: 90, sp: 93 },
+    weightkg: 43,
+    abilities: { 0: 'Flame Body' }
+  },
+  Chandelcuno: {
+    types: ['Ghost', 'Flying'],
+    bs: { hp: 70, at: 75, df: 96, sa: 128, sd: 101, sp: 83 },
+    weightkg: 44,
+    abilities: { 0: 'Pressure' }
+  },
+  Artinoir: {
+    types: ['Ice', 'Ghost'],
+    bs: { hp: 75, at: 95, df: 123, sa: 85, sd: 128, sp: 58 },
+    weightkg: 81,
+    abilities: { 0: 'Pressure' }
+  },
+  Chandelslash: {
+    types: ['Ghost', 'Steel'],
+    bs: { hp: 60, at: 51, df: 130, sa: 113, sd: 110, sp: 66 },
+    weightkg: 43,
+    abilities: { 0: 'Flame Body' }
+  },
+  Banklang: {
+    types: ['Ghost', 'Steel'],
+    bs: { hp: 62, at: 105, df: 98, sa: 78, sd: 70, sp: 81 },
+    weightkg: 46,
+    abilities: { 0: 'Frisk' }
+  },
+  Abpede: {
+    types: ['Dark', 'Poison'],
+    bs: { hp: 63, at: 110, df: 79, sa: 68, sd: 63, sp: 99 },
+    weightkg: 123,
+    abilities: { 0: 'Speed Boost' }
+  },
+  Klinkpede: {
+    types: ['Steel', 'Poison'],
+    bs: { hp: 60, at: 100, df: 97, sa: 65, sd: 79, sp: 104 },
+    weightkg: 140,
+    abilities: { 0: 'Speed Boost' }
+  },
+  Togeturne: {
+    types: ['Fairy', 'Dark'],
+    bs: { hp: 80, at: 93, df: 71, sa: 118, sd: 96, sp: 63 },
+    weightkg: 57,
+    abilities: { 0: 'Serene Grace' }
+  },
+  Abterra: {
+    types: ['Dark', 'Ground'],
+    bs: { hp: 75, at: 116, df: 90, sa: 75, sd: 68, sp: 62 },
+    weightkg: 178,
+    abilities: { 0: 'Super Luck' }
   }
 }
 const IFusion: {[name: string]: SpeciesData} = extend(true, {}, SM, IFUS_PATH);

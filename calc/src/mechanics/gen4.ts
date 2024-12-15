@@ -545,7 +545,7 @@ export function calculateAttackDPP(
     desc.attackerItem = attacker.item;
   } else if (
     (attacker.hasItem('Light Ball') && attacker.named('Pikachu')) ||
-    (attacker.hasItem('Thick Club') && attacker.named('Cubone', 'Marowak', 'Maroperior') && isPhysical) ||
+    (attacker.hasItem('Thick Club') && attacker.named('Cubone', 'Marowak', 'Maroperior', 'Marokyu', 'Chandelwak') && isPhysical) ||
     (attacker.hasItem('Deep Sea Tooth') && attacker.named('Clamperl') && !isPhysical)
   ) {
     attack *= 2;
